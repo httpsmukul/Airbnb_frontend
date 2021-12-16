@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "username": "mukul",
+      "Email": "mukul@mukuhzdf",
+      "Pass": "8006",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

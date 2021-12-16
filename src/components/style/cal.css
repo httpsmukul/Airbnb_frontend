@@ -1,0 +1,10 @@
+.App {
+}
+.app {
+	background-color: aquamarine;
+	display: none;
+}
+
+#see {
+	border: 2px solid black;
+}
