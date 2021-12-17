@@ -6,6 +6,13 @@
       "checkOut": "2021-12-18T07:28:00.000Z",
       "Geast": "adult 1",
       "id": 1
+    },
+    {
+      "Location": null,
+      "checkIn": null,
+      "checkOut": null,
+      "Geast": "adult 1",
+      "id": 2
     }
   ],
   "signup": [

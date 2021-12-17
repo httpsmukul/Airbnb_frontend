@@ -25,7 +25,7 @@ export const Header = () => {
 	const [showsignin, setshowsignin] = useState(false);
 
 	const [adult, setadult] = useState(0);
-	const [geast, setgeast] = useState("Add geast");
+	const [geast, setgeast] = useState("Add guest");
 	const [location, setlocation] = useState(null);
 
 	const signdetail = () => {
@@ -84,6 +84,7 @@ export const Header = () => {
 							<br />
 							<hr className="hr" />
 						</div>
+
 						<div className="exper">Experiences</div>
 						<div className="online">Online Experiences</div>
 					</div>
@@ -107,7 +108,7 @@ export const Header = () => {
 
 						<div className="">
 							<div className="become2" onClick={signdetail}>
-								login
+								nlogi
 								<svg
 									className="login_svg1"
 									width="14"
@@ -139,6 +140,8 @@ export const Header = () => {
 						</div>
 					</div>
 				</div>
+				{showsignup && <Signup></Signup>}
+				{showsignin && <Signin></Signin>}
 
 				<div className="booking_data">
 					<div className="setgeast">
@@ -212,13 +215,13 @@ export const Header = () => {
 						<div className="adult">
 							<div>
 								Adults <br />
-								Ages 13 or above
+								<div className="fix1">Ages 13 or above</div>
 							</div>
 							<div className="calculation">
 								<button className="plus" onClick={handelsub}>
 									-
 								</button>
-								<div>{adult}</div>
+								<div className="fix2">{adult}</div>
 								<button className="plus" onClick={handeladd}>
 									+
 								</button>
@@ -228,11 +231,11 @@ export const Header = () => {
 						<div className="adult">
 							<div>
 								Childern <br />
-								Ages 2- 12
+								<div className="fix1">Ages 2 - 12</div>
 							</div>
 							<div className="calculation">
 								<button className="plus">-</button>
-								<div>0</div>
+								<div className="fix2">0</div>
 								<button className="plus">+</button>
 							</div>
 						</div>
@@ -241,11 +244,11 @@ export const Header = () => {
 							<div>
 								Infants
 								<br />
-								Under 2
+								<div className="fix1">Under 2</div>
 							</div>
 							<div className="calculation">
 								<button className="plus">-</button>
-								<div>0</div>
+								<div className="fix2">0</div>
 								<button className="plus">+</button>
 							</div>
 						</div>
@@ -277,9 +280,6 @@ export const Header = () => {
 			)}
 			{/* {till here _______________________________________________} */}
 			{/* sign up ______________________________ */}
-
-			{showsignup && <Signup></Signup>}
-			{showsignin && <Signin></Signin>}
 
 			{/* till here _________________________________ */}
 			<h1>
