@@ -8,10 +8,20 @@
       "id": 1
     }
   ],
-  "comments": [
+  "signup": [
     {
-      "body": "some comment",
-      "postId": 1
+      "first_name": "mukul",
+      "last_name": "kumar",
+      "email": "mukulrajput9675@gmail.com",
+      "password": "8006",
+      "id": 1
+    }
+  ],
+  "signin": [
+    {
+      "emial": "mukulrajput9675@gmail.ocm",
+      "password": "806525",
+      "id": 1
     }
   ],
   "profile": {

@@ -19,10 +19,7 @@
 	flex-direction: auto;
 	padding: 5px;
 }
-.become {
-	display: flex;
-	justify-content: flex-end;
-}
+
 /* 
 }
 
@@ -40,6 +37,9 @@
 }
 .sec:hover {
 	background-color: #f7f7f7;
+	cursor: pointer;
+}
+.become2:hover {
 	cursor: pointer;
 }
 
@@ -247,4 +247,64 @@
 .add_geast {
 	color: #a2a2a2;
 	font-size: 14px;
+}
+.become {
+	display: flex;
+	justify-content: flex-end;
+}
+.become1 {
+	/* border: 1px solid green !important; */
+	margin: 25px 0px 10px 20px;
+}
+.svghost {
+	margin: 0px 0px -5px 40px;
+}
+.become2 {
+	border: 1px solid green;
+	text-align: right;
+	border-radius: 80px;
+	background-color: #ffffff;
+	width: 76px !important;
+	height: 43px;
+	display: flex;
+	padding: 2px;
+	margin: 10px 0px 10px 70px;
+}
+.login_svg1 {
+	margin: 13px 0px 3px -15px;
+	color: #000000;
+	width: 16px;
+	height: 16px;
+}
+.login_svg2 {
+	margin: 7px 3px 3px 5px;
+	width: 26.67px;
+	height: 26.67px;
+
+	color: #333333;
+}
+.signdetail {
+	/* border: 2px solid black; */
+	height: 200px;
+	width: 200px;
+	border-radius: 25px;
+	font-size: 16px;
+	margin: -130px 10px 0px 86% !important;
+	position: absolute;
+	padding: 5px;
+	background-color: #ffffff;
+}
+.signdetail div {
+	margin: 5px 5px 5px 12px;
+	color: rgb(87, 84, 84);
+}
+.signdetail div:hover {
+	/* background-color: #f7f7f7; */
+	color: black;
+	cursor: pointer;
+}
+.signdetail hr {
+	/* margin: 5px 5px 5px 12px; */
+	width: 90%;
+	color: rgb(87, 84, 84);
 }
