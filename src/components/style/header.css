@@ -10,7 +10,7 @@
 .header_main {
 	border: 2px solid green;
 	/* position: absolute; */
-	width: 100%;
+	/* width: 100%; */
 	left: 0px;
 	top: 0px;
 	background-color: black;
@@ -19,6 +19,31 @@
 	flex-direction: auto;
 	padding: 5px;
 }
+.become {
+	display: flex;
+	justify-content: flex-end;
+}
+/* 
+}
+
+.geast_search button:hover {
+	background-color: rgb(241, 229, 229);
+} */
+/* hover__________________________ */
+.geast_search:hover {
+	background-color: #f7f7f7;
+	cursor: pointer;
+}
+.setgeast:hover {
+	background-color: #f7f7f7;
+	cursor: pointer;
+}
+.sec:hover {
+	background-color: #f7f7f7;
+	cursor: pointer;
+}
+
+/* ?__________________________________ */
 .header_main div:nth-child(1) {
 	/* background: red; */
 	color: white;
@@ -56,10 +81,42 @@
 	border-radius: 80px;
 }
 .header_input {
-	width: 98%;
+	outline: none;
+	border: none;
+	width: 300px;
 	height: 55px;
 	border-radius: 80px;
-	font-size: large;
+	font-size: 17px;
+	padding-left: 17px;
+	background-color: transparent;
+}
+.hr {
+	/* overflow: visible;
+	text-align: center; */
+	width: 29px;
+	margin: 8px 0px 0px 23%;
+}
+.header_text1 {
+	display: flex;
+	justify-content: space-around;
+}
+.header_text1 div {
+	/* border: 1px solid white; */
+	/* padding: 3px; */
+
+	/* pointer-events: auto !important; */
+	/* cursor: pointer !important; */
+	/* font-family: inherit !important;
+	-webkit-tap-highlight-color: transparent !important;
+	color: inherit !important;
+	text-align: inherit !important;
+	box-sizing: border-box;
+	display: inline-block !important; */
+	font-size: 16px !important;
+	line-height: 20px !important;
+	font-weight: 400 !important;
+	margin: 20px 0px 0px 0px;
+	padding: 10px 16px !important;
 }
 .booking_data div:nth-child(1) {
 	/* width: 25%; */
@@ -76,37 +133,81 @@
 }
 .booking_data div:nth-child(3) {
 	width: 25%;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	border-radius: 80px;
 	text-align: center;
 }
-.booking_data div:nth-child(4) {
+.booking_data div:nth-child() {
 	width: 25%;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	border-radius: 80px;
 	text-align: center;
 }
 
 .sec {
 	width: 25%;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	border-radius: 80px;
 	text-align: center;
+	border-bottom: none !important;
+	text-decoration: none;
+	/* display: none; */
 }
 .remove {
+	display: none;
 	margin-left: 7px;
 	padding: 0;
+	border-bottom: none !important;
+	text-decoration: none;
 }
 
 .geast {
-	margin: auto;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	height: 300px;
 	width: 300px;
 	border-radius: 30px;
 	padding: 16px 32px;
+	margin: -45px 0px 50px 67%;
+	background-color: #ffffff;
+	position: absolute;
 }
-
+.geast_search {
+	width: 25%;
+	/* border: 1px solid black; */
+	border-radius: 80px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+.geast_button {
+	/* border: 1px solid red; */
+	border: none !important;
+	background-color: transparent;
+	font-size: 17px;
+}
+.search {
+	/* text-align: center; */
+	font-size: 16px;
+	margin: 5px -15px 5px 5px;
+	padding: 10px 3px 0px 3px;
+	/* border: 1px solid green; */
+	width: 112px;
+	border-radius: 80px;
+	height: 40px;
+	color: #ffffff;
+	background: linear-gradient(
+		270deg,
+		#d90865 -19.13%,
+		#e41d5a 62%,
+		#e61e4d 122.37%
+	);
+}
+.search_svg {
+	border: none;
+	font-size: 14px;
+	margin: 5px 7px -4px 5px;
+	/* position: absolute; */
+}
 .header1 {
 	background-color: aqua;
 }
@@ -115,8 +216,35 @@
 	justify-content: space-between;
 }
 .calculation {
+	/* border: 1px dotted black; */
 	display: flex;
 	justify-content: space-around;
 	font-size: 25px;
 	margin: 7px;
+	/* width: 70px; */
+}
+.plus {
+	border-radius: 50px;
+	border: 0.5px solid black;
+	height: 25px;
+	width: 25px;
+	font-weight: bold;
+	font-size: 15px;
+	/* text-align: center; */
+	margin: 10px 10px 10px 10px;
+}
+.text {
+	color: #717171;
+	/* font-family: SF UI Display; */
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+}
+.header_inp_div {
+	display: none;
+}
+.add_geast {
+	color: #a2a2a2;
+	font-size: 14px;
 }
