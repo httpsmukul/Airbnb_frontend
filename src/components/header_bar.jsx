@@ -28,15 +28,15 @@ export const Header_bar = () => {
 	};
 	return (
 		<>
-			<div className="header">
-				<div className="header_main">
-					<div className="header_main_logo">
-						<img src={logo} className="header_logo"></img>
+			<div className="header1">
+				<div className="header_main1">
+					<div className="header_main_logo1">
+						<img src={logo} className="header_logo1"></img>
 					</div>
-					<div className="header_text1">
-						<div className="online_s">Start your search</div>
+					<div className="header_text11">
+						<div className="online_s1">Start your search</div>
 						<svg
-							className="fix_se"
+							className="fix_se1"
 							width="33"
 							height="33"
 							viewBox="0 0 24 24"
@@ -50,11 +50,11 @@ export const Header_bar = () => {
 							/>
 						</svg>
 					</div>
-					<div className="become">
-						<div className="become1">
+					<div className="become12">
+						<div className="become11">
 							Become a host
 							<svg
-								className="fix5"
+								className="fix51"
 								width="16"
 								height="16"
 								viewBox="0 0 16 16"
@@ -69,10 +69,10 @@ export const Header_bar = () => {
 						</div>
 
 						<div className="">
-							<div className="become2" onClick={signdetail}>
+							<div className="become21" onClick={signdetail}>
 								nlogi
 								<svg
-									className="login_svg1"
+									className="login_svg11"
 									width="14"
 									height="10"
 									viewBox="0 0 14 10"
@@ -85,7 +85,7 @@ export const Header_bar = () => {
 									/>
 								</svg>
 								<svg
-									className="login_svg2"
+									className="login_svg21"
 									width="27"
 									height="27"
 									viewBox="0 0 27 27"
@@ -112,7 +112,7 @@ export const Header_bar = () => {
 			{/* till here______________________________________________ */}
 			{/* //here start login popup______________________________ */}
 			{singshow && (
-				<div className="signdetail">
+				<div className="signdetail1">
 					<div onClick={signup}>Sign up</div>
 					<hr />
 					<div onClick={login}>Log in</div>
