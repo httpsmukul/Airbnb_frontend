@@ -10,6 +10,7 @@ export const Signup = () => {
 	const [last, setlast] = useState("");
 	const [Email, setemail] = useState("");
 	const [pass, setpass] = useState(null);
+	const [mob, setmob] = useState(null);
 	const [show, setshow] = useState(false);
 
 	const signup = () => {
@@ -22,6 +23,7 @@ export const Signup = () => {
 				last_name: last,
 
 				email: Email,
+				mobile: mob,
 				password: pass,
 			})
 			.then(function (response) {
@@ -61,7 +63,14 @@ export const Signup = () => {
 						></input>
 						<br />
 						<br />
-
+						<input
+							placeholder="Mobile"
+							type="number"
+							className="first_name"
+							onChange={(e) => setmob(e.target.value)}
+						></input>
+						<br />
+						<br />
 						<input
 							placeholder="Email"
 							type="email"

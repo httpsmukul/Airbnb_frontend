@@ -140,8 +140,8 @@ export const Header = () => {
 						</div>
 					</div>
 				</div>
-				{showsignup && <Signup></Signup>}
 				{showsignin && <Signin></Signin>}
+				{showsignup && <Signup></Signup>}
 
 				<div className="booking_data">
 					<div className="setgeast">
