@@ -1,5 +1,6 @@
 import "./style/header.css";
 import logo from "./img/Airbnb white.png";
+import { Link } from 'react-router-dom';
 // import search from "./img/search.svg";
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
@@ -186,6 +187,7 @@ export const Header = () => {
 							Guest
 							<div className="add_geast">{geast}</div>
 						</button>
+						<Link style={{textDecoration:"none"}} to='/hotellist'>
 						<div className="search" onClick={data_store}>
 							<svg
 								className="search_svg"
@@ -201,7 +203,8 @@ export const Header = () => {
 								/>
 							</svg>
 							search
-						</div>
+							</div>
+						</Link>
 						{/* <p>Add Guest</p> */}
 					</div>
 				</div>

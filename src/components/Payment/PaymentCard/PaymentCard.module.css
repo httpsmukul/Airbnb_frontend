@@ -1,0 +1,186 @@
+.nav{
+    height: 80px;
+    /* background-color:grey; */
+    border-bottom: 1px solid #ededed;
+
+}
+.logo{
+    float: left;
+    margin-left: 20px;
+    margin-top:20px;
+}
+.confirm{
+/* background-color:blue; */
+width: 75%;
+height: 148;
+margin: 30px auto auto auto;
+font-size:32px;
+text-align: center;
+font-weight: 500;
+ padding-left: 30px;
+}
+.pay{
+    /* float:left; */
+    /* background-color:aqua; */
+    height: 0px;
+    width: 70%;
+}
+.backButton{
+    float:left;
+    width: 16px;
+    height: 16px;
+    margin-top: 30px;
+}
+.payText{
+    margin-left: 25px;
+    margin-top: 13px;
+    float:left;
+}
+
+.mainDiv{
+    /* background-color:green; */
+    width:75%;
+    height: 500px;
+    margin: auto;
+    padding: 20px 50px 0px 50px;
+}
+.leftDiv{
+    width:40%;
+    /* border: 1px solid blue; */
+    /* height:1200px; */
+    float:left;
+    clear:both;
+    padding: 0px 20px 20px 20px;
+    
+}
+.left1{
+    font-size: 16px;
+    /* border: 1px solid red; */
+    width: 100%;
+    font-weight: 300;
+    text-align:left;
+}
+.input{
+    width: 100%;
+    text-align:left;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #b2b2b2;
+    font-size: 16px;
+    padding-left: 20px;
+    color: black;
+    letter-spacing:1px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.input2{
+    width: 90%;
+    text-align:left;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #b2b2b2;
+    font-size: 16px;
+    padding-left: 20px;
+    color: black;
+    letter-spacing:1px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.input3{
+    width: 100%;
+    text-align:left;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #b2b2b2;
+    font-size: 16px;
+    padding-left: 20px;
+    color: black;
+    letter-spacing:1px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.check{
+    font-size: 13px;
+    /* border: 2px solid red; */
+}
+.payButton{
+    width: 150px !important;
+    height: 43px !important;
+    background-color:#e1175e !important;
+    float:left !important;
+    text-align: center !important;
+    font-size:14px !important;
+    margin-top: 20px !important;
+}
+.rightDiv{
+     width:38%;
+     border: 1px solid #b2b2b2;
+    /* height:347px; */
+    float:right;
+    padding:0px 15px 0px 15px;
+    border-radius: 16px;
+    margin-top: 25px;
+}
+
+.image{
+    float:left;
+    margin-right: 15px;
+    height: 106px;
+    width: 124px;
+    left: 0px;
+    top: -17px;
+    border-radius: 10px;
+
+}
+.data{
+    float:left;
+    font-size:14px;
+    color:#727272;
+    /* margin-left: 20px; */
+    margin-top:15px;
+    width: 95%;
+    clear: both;
+    font-weight:lighter;
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* border: 2px solid orange; */
+    line-height:0.5;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.rating{
+    float:left;
+    color: #727272;
+    font-size: 13px;
+}
+.right11{
+    display: flex;
+    justify-content:space-between;
+    font-size:16px;
+    margin-top: 0px;
+  /* border: 2px solid orange; */
+    line-height:0.5;
+   border-bottom:1px solid rgb(221, 221, 221);
+}
+.right111{
+     display: flex;
+    justify-content:space-between;
+    font-weight: 600;
+    font-size:16px;
+    
+}
+.footer{
+    width: 100%;
+}
+.right1{
+    font-size: 20px;
+    font-weight: 500;
+    /* border: 1px solid red; */
+    margin-top: 160px;
+    width: 100%;
+    text-align:left;
+}
+.footer{
+    width: 100%;
+}
