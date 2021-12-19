@@ -162,7 +162,7 @@
 }
 
 .geast {
-	/* border: 1px solid black; */
+	border: 2px solid rgb(204, 202, 202);
 	height: 300px;
 	width: 300px;
 	border-radius: 30px;
@@ -185,11 +185,12 @@
 	background-color: transparent;
 	font-size: 17px;
 	cursor: pointer;
+	margin: 10px 0 0 0;
 }
 .search {
 	/* text-align: center; */
 	font-size: 16px;
-	margin: 5px -15px 5px 29px;
+	margin: 5px -10px 5px 0px;
 	padding: 10px 3px 0px 3px;
 	/* border: 1px solid green; */
 	width: 112px;
@@ -288,7 +289,7 @@
 	color: #333333;
 }
 .signdetail {
-	/* border: 2px solid black; */
+	border: 2px solid rgb(204, 202, 202);
 	height: 200px;
 	width: 200px;
 	border-radius: 25px;
@@ -319,4 +320,16 @@
 .fix2 {
 	font-size: 20px !important;
 	margin: 6px 0px 0px 0px;
+}
+.fix12 {
+	background-color: black;
+	height: 700px;
+	padding: 100px 0 0 0;
+}
+.fix12 img {
+	margin: 0 0 0 180px;
+}
+.fix13 {
+	margin: -200px 0 0 600px;
+	color: white;
 }

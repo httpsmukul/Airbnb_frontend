@@ -1,13 +1,22 @@
 import "./style/header.css";
+// import React from "react";
+
 import logo from "./img/Airbnb white.png";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 // import search from "./img/search.svg";
+// import { Middleimg } from "./Middleimg.js";
+
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
 import DateMomentUtils from "@date-io/moment";
 import axios from "axios";
 import { Signup } from "./signup";
 import { Signin } from "./signin";
+import Stylee from "./Middleimg.module.css";
+import myImg from "../Photos/firstphoto.jpg";
+import myImge from "../Photos/secondphoto.jpg";
+import lastimg from "../Photos/lastimg.jpg";
+import footer from "../Photos/footer.jpeg";
 import {
 	TimePicker,
 	DatePicker,
@@ -187,22 +196,22 @@ export const Header = () => {
 							Guest
 							<div className="add_geast">{geast}</div>
 						</button>
-						<Link style={{textDecoration:"none"}} to='/hotellist'>
-						<div className="search" onClick={data_store}>
-							<svg
-								className="search_svg"
-								width="18"
-								height="15"
-								viewBox="0 0 18 18"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									d="M7 0C8.72391 0 10.3772 0.684819 11.5962 1.90381C12.8152 3.12279 13.5 4.77609 13.5 6.5C13.5 8.11 12.91 9.59 11.94 10.73L12.21 11H13L18 16L16.5 17.5L11.5 12.5V11.71L11.23 11.44C10.09 12.41 8.61 13 7 13C5.27609 13 3.62279 12.3152 2.40381 11.0962C1.18482 9.87721 0.5 8.22391 0.5 6.5C0.5 4.77609 1.18482 3.12279 2.40381 1.90381C3.62279 0.684819 5.27609 0 7 0V0ZM7 2C4.5 2 2.5 4 2.5 6.5C2.5 9 4.5 11 7 11C9.5 11 11.5 9 11.5 6.5C11.5 4 9.5 2 7 2Z"
-									fill="white"
-								/>
-							</svg>
-							search
+						<Link style={{ textDecoration: "none" }} to="/hotellist">
+							<div className="search" onClick={data_store}>
+								<svg
+									className="search_svg"
+									width="18"
+									height="15"
+									viewBox="0 0 18 18"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M7 0C8.72391 0 10.3772 0.684819 11.5962 1.90381C12.8152 3.12279 13.5 4.77609 13.5 6.5C13.5 8.11 12.91 9.59 11.94 10.73L12.21 11H13L18 16L16.5 17.5L11.5 12.5V11.71L11.23 11.44C10.09 12.41 8.61 13 7 13C5.27609 13 3.62279 12.3152 2.40381 11.0962C1.18482 9.87721 0.5 8.22391 0.5 6.5C0.5 4.77609 1.18482 3.12279 2.40381 1.90381C3.62279 0.684819 5.27609 0 7 0V0ZM7 2C4.5 2 2.5 4 2.5 6.5C2.5 9 4.5 11 7 11C9.5 11 11.5 9 11.5 6.5C11.5 4 9.5 2 7 2Z"
+										fill="white"
+									/>
+								</svg>
+								search
 							</div>
 						</Link>
 						{/* <p>Add Guest</p> */}
@@ -285,10 +294,129 @@ export const Header = () => {
 			{/* sign up ______________________________ */}
 
 			{/* till here _________________________________ */}
-			<h1>
-				hey i am heersdfsfdsfsdfsdfsfsdfsfss f
-				fffffffffffffffffffffffffffffffffffffffffff
-			</h1>
+			<div className="fix12">
+				{" "}
+				<img
+					style={{ borderRadius: "20px" }}
+					src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fa0.muscache.com%2Fim%2Fpictures%2Ffe7217ff-0b24-438d-880d-b94722c75bf5.jpg"
+					alt="firstimg"
+				/>{" "}
+				<h1 className="fix13">Not sure where to go? Perfect.</h1>
+			</div>
+			<span>
+				<div className={Stylee.container}>
+					<div className={Stylee.iamg}>
+						<div className={Stylee.names}>
+							<h1 style={{ textAlign: "right" }}>
+								{/* Not sure where to go? Perfect. */}
+							</h1>
+							{/* <button>I am flexible</button> */}
+						</div>
+					</div>
+				</div>
+
+				<p>
+					<h1>Discover Airbnb Experiences</h1>
+					<div className={Stylee.contain}>
+						<div className={Stylee.box1}>
+							<img
+								className={Stylee.borders}
+								src="https://a0.muscache.com/im/pictures/a433b4d0-8183-4523-b4c5-99b81c5729c1.jpg?im_w=240"
+							/>
+							<h1 style={{ marginLeft: "5%" }}>Lonavala</h1>
+							<h4 style={{ marginLeft: "5%" }}>66 Kilometers away</h4>
+						</div>
+						<div className={Stylee.box2}>
+							<img
+								className={Stylee.borders}
+								src="https://a0.muscache.com/im/pictures/85bff6ba-f4d0-4094-926e-a4fbc21bab4e.jpg?im_w=240"
+							/>
+							<h1 style={{ marginLeft: "5%" }}>Karjat</h1>
+							<h4 style={{ marginLeft: "5%" }}>53 Kilometers away</h4>
+						</div>
+						<div className={Stylee.box3}>
+							<img
+								className={Stylee.borders}
+								src="https://a0.muscache.com/im/pictures/0538dab4-a0fc-4035-b6b2-40fa3532ee7b.jpg?im_w=240"
+							/>
+							<h1 style={{ marginLeft: "5%" }}>Calangute</h1>
+							<h4 style={{ marginLeft: "5%" }}>396 Kilometers away</h4>
+						</div>
+						<div className={Stylee.box4}>
+							<img
+								className={Stylee.borders}
+								src="https://a0.muscache.com/im/pictures/3a7b8005-28b8-48b8-8efa-0a6a00f7d5d8.jpg?im_w=240"
+							/>
+							<h1 style={{ marginLeft: "5%" }}>Mahabaleshwar</h1>
+							<h4 style={{ marginLeft: "5%" }}>145 Kilometers away</h4>
+						</div>
+					</div>
+				</p>
+
+				<h1 style={{ marginLeft: "10%", marginBottom: "5%" }}>
+					Discover Airbnb Experiences
+				</h1>
+				<div className={Stylee.twoimg}>
+					<img
+						className={Stylee.twoimages}
+						style={{ marginLeft: "10%" }}
+						src={myImge}
+						alt="one"
+					/>
+					<img
+						className={Stylee.twoimages}
+						style={{ marginLeft: "2%" }}
+						src={myImg}
+						alt="two"
+					/>
+					<div className={Stylee.namebtn}>
+						<h1>
+							Things to do
+							<br /> on your trip
+						</h1>
+						<button>Experiences</button>
+					</div>
+					<div className={Stylee.namebtns}>
+						<h1>
+							Things to do
+							<br /> from home
+						</h1>
+						<button>Online Experiences</button>
+					</div>
+				</div>
+				<div className={Stylee.last}>
+					<img
+						style={{ width: "100%", height: "590px" }}
+						src={lastimg}
+						alt="last"
+					/>
+					<div className={Stylee.namebuton}>
+						<h1 style={{ fontSize: "400%", marginLeft: "7%" }}>
+							<b>Questions</b>
+							<br />
+							about
+							<br />
+							hosting?
+						</h1>
+						<br />
+						<br />
+						<button
+							style={{
+								marginLeft: "7%",
+								paddingLeft: "2%",
+								paddingRight: "2%",
+							}}
+						>
+							<b>Ask a Superhost</b>
+						</button>
+					</div>
+					<img
+						style={{ width: "100%", height: "400px", marginTop: "10%" }}
+						src={footer}
+						alt="footer"
+					/>
+				</div>
+			</span>
 		</>
 	);
 };

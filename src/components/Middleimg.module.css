@@ -1,0 +1,128 @@
+.twoimages{
+    width:40%;
+    height: 600px;
+    border-radius: 2%;
+}
+.twoimg{
+    display: flex;
+
+}
+.namebtn{
+     position: absolute;
+margin-top:100px ;
+color: white;
+text-align: center;
+padding-left: 40px;
+padding-right: 50px;
+margin-bottom: 60px;
+margin-left: 130px;
+margin-right: 300px;
+font-size: 20px;
+
+ }        
+ button{
+     height: 40px;
+     padding-left: 10%;
+     padding-right: 10%;
+     border-radius: 6px;
+     margin-left: 0px;
+ }
+ .namebtns{
+     position: absolute;
+     margin-top: 100px;
+color: white;
+text-align: center;
+padding-left: 40px;
+padding-right: 50px;
+margin-bottom: 60px;
+margin-left: 690px;
+margin-right: 300px;
+font-size: 20px;
+ }        
+ .last{
+    margin-top: 5%;
+   width:100%;
+   height: 50px;
+}   
+.namebuton{
+    margin-top: -500px;
+    color: white;
+}     
+.contain{
+    display: flex;
+    margin-left: 7%;
+    margin-top: 800px;
+    
+}
+.box1{
+    background-color: rgb(206, 54, 7);
+    color: white;
+    width: 260px;
+    height: 350px;
+    margin-left: 25px;
+    border-radius: 3%;
+}
+.box2{
+    background-color: rgb(201, 24, 148);
+    color: white;
+    width: 260px;
+    height: 350px;
+    margin-left: 25px;
+    border-radius: 3%;
+}
+.box3{
+    background-color: rgb(207, 66, 125);
+    color: white;
+    width: 260px;
+    height: 350px;
+    margin-left: 25px;
+    border-radius: 3%;
+}
+.box4{
+    background-color: rgb(231, 13, 86);
+    color: white;
+    width: 260px;
+    height: 350px;
+    margin-left: 25px;
+    border-radius: 3%;
+}
+.borders{
+    width: 100%;
+    align-content: center;
+    border-radius: 3%;
+   
+}
+.container{
+    display: flex;
+    width: 100%;
+    background-color: #0f0f0f;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+.iamg{
+   position: relative;
+   border-radius: 20px;
+   margin-top: 0%;
+}
+.names{
+    margin-top: 0%;
+    position: absolute;
+bottom: 20px;
+right: 20px;
+color: white;
+text-align: center;
+padding-left: 40px;
+padding-right: 50px;
+margin-bottom: 60px;
+margin-left: 200px;
+margin-right: 300px;
+}
+.inspiration{
+    margin-left:9% ;
+    margin-bottom: 3%;
+    margin-top: 700px;
+}

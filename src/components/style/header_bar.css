@@ -8,7 +8,7 @@
 }
 
 .header_main1 {
-	border: 2px solid green;
+	border: 2px solid whitesmoke !important;
 	/* position: absolute; */
 	/* width: 100%; */
 	left: 0px;
@@ -213,7 +213,7 @@
 	/* position: absolute; */
 }
 .header1 {
-	background-color: aqua;
+	background-color: whitesmoke;
 }
 .adult {
 	display: flex;

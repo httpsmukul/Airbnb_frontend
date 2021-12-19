@@ -1,4 +1,5 @@
 import "./style/signup.css";
+import { Header_bar } from "./header_bar.jsx";
 import fb from "./img/Vector.png";
 import google from "./img/google.png";
 import email from "./img/email.png";
@@ -38,6 +39,7 @@ export const Signup = () => {
 
 	return (
 		<>
+			<Header_bar></Header_bar>
 			{show && (
 				<div>
 					<div className="start">

@@ -132,8 +132,8 @@ export const Header_bar = () => {
 
 			{/* till here _________________________________ */}
 			<h1>
-				hey i am heersdfsfdsfsdfsdfsfsdfsfss f
-				fffffffffffffffffffffffffffffffffffffffffff
+				{/* hey i am heersdfsfdsfsdfsdfsfsdfsfss f
+				fffffffffffffffffffffffffffffffffffffffffff */}
 			</h1>
 		</>
 	);
