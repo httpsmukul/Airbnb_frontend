@@ -1,14 +1,14 @@
-import React from 'react'
-import AboutHost from './AboutHost'
-import HotelDiscription from './HotelDiscription'
+import React from "react";
+import AboutHost from "./AboutHost";
+import { HotelDiscription } from "./HotelDiscription";
+import { Header_bar } from "./header_bar";
 
-const Hotel = () => {
-    return (
-        <>
-            <HotelDiscription />
-            <AboutHost/>
-        </>
-    )
-}
-
-export default Hotel
+export const Hotel = () => {
+	return (
+		<>
+			<Header_bar></Header_bar>
+			<HotelDiscription />
+			<AboutHost />
+		</>
+	);
+};

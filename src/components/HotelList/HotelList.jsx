@@ -8,10 +8,10 @@ export const HotelList = () => {
     const [hotels, setHotels] = useState([]);
     useEffect(() => {
         // fetch("https://reqres.in/api/users?page=2")
-        fetch("http://localhost:5000/hotels/")
+        fetch("http://localhost:3001/hotels/")
             .then((x) => x.json())
             .then((d) => {
-                // console.log(d);
+                console.log(d);
                 setHotels(d);
             });
     }, []);
@@ -25,7 +25,7 @@ export const HotelList = () => {
                 {hotels.map((e, i) => (
                     <div key={i} >
                         {" "}
-                        <Link to=''>
+                        <Link to={`/hotellist/${e.id}`}>
                             <div className={styles.data}>
                                 <img className={styles.image} src={e.image} alt="Hotel Logo" />
                                 <p>{e.type}</p>

@@ -20,6 +20,13 @@
       "checkOut": null,
       "Geast": "Add guest",
       "id": 3
+    },
+    {
+      "Location": null,
+      "checkIn": null,
+      "checkOut": null,
+      "Geast": "Add guest",
+      "id": 4
     }
   ],
   "signup": [

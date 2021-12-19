@@ -1,7 +1,7 @@
 {
     "hotels": [
         {
-            "location_id": "1585713",
+            "id": "1",
             "name": "Beas View : The Orchard",
             "type": "Entire apartment in Kullu",
             "guests": 4,
@@ -16,7 +16,7 @@
             "image": "https://i.ibb.co/DYdLxkb/02f6c0b0-604f-45b7-9630-dc913319ae5b.png"
         },
         {
-            "location_id": "13451294",
+            "id": "2",
             "name": "Yalakhom| Find Tranquility Under Mountains |Room2",
             "type": "Private room in Sosan",
             "guests": 2,
@@ -31,7 +31,7 @@
             "image": "https://i.ibb.co/KrSK9rK/2bb4c634-fb06-4f19-a626-c0524a97a0b3.png"
         },
         {
-            "location_id": "2322325",
+            "id": "3",
             "name": "Aari 9",
             "type": "Private room in Naggar",
             "guests": 2,
@@ -46,7 +46,7 @@
             "image": "https://i.ibb.co/GHWCmVK/2f06eec3-2497-4cd2-a734-1cf2563fc9a4.png"
         },
         {
-            "location_id": "18190176",
+            "id": "4",
             "name": "Massifsoul home stay ~ Room 1",
             "type": "Private room in Gadhemi",
             "guests": 2,
@@ -61,7 +61,7 @@
             "image": "https://i.ibb.co/9NpnSYm/3f5d0c16-4ad0-43e4-9c7b-49dda8b31152.png"
         },
         {
-            "location_id": "12551751",
+            "id": "5",
             "name": "Rockwoodbnb Maple",
             "type": "Private room in Manali",
             "guests": 2,
@@ -76,7 +76,7 @@
             "image": "https://i.ibb.co/vPPjBYZ/12dd62dd-3f12-4f43-837c-de21d90cc6fd.png"
         },
         {
-            "location_id": "2554713",
+            "id": "6",
             "name": "Mesmerizing View Room Amdist Apple Orchard",
             "type": "Private room in Manali",
             "guests": 3,
@@ -91,7 +91,7 @@
             "image": "https://i.ibb.co/DMfDW8j/119fbdca-e31f-4e18-85b8-b6a71358acf1.png"
         },
         {
-            "location_id": "7292048",
+            "id": "7",
             "name": "Colonel's Dacha-Executive Room",
             "type": "Private room in Kasol",
             "guests": 3,
@@ -106,7 +106,7 @@
             "image": "https://i.ibb.co/VQXgbHR/0662a5cd-04cf-43d3-b702-d2b77906bedb.png"
         },
         {
-            "location_id": "2048980",
+            "id": "8",
             "name": "Blisswinds Homestay",
             "type": "Private room in Jari",
             "guests": 3,
@@ -121,7 +121,7 @@
             "image": "https://i.ibb.co/Vqk3gbW/be7d4847-950d-4629-9061-f52bdd79d9b2.png"
         },
         {
-            "location_id": "1135621",
+            "id": "9",
             "name": "Shantiloka - A peacefull Apartment in The Forest",
             "type": "Entire rental unit in Naggar",
             "guests": 3,
@@ -136,7 +136,7 @@
             "image": "https://i.ibb.co/DYdLxkb/02f6c0b0-604f-45b7-9630-dc913319ae5b.png"
         },
         {
-            "location_id": "11705502",
+            "id": "10",
             "name": "The Himalayan Pine",
             "type": "Hotel room in Kasol",
             "guests": 3,
@@ -151,7 +151,7 @@
             "image": "https://i.ibb.co/KrSK9rK/2bb4c634-fb06-4f19-a626-c0524a97a0b3.png"
         },
         {
-            "location_id": "301899",
+            "id": "11",
             "name": "Beas View : The Orchard",
             "type": "Entire apartment in Kullu",
             "guests": 4,
@@ -166,7 +166,7 @@
             "image": "https://i.ibb.co/GHWCmVK/2f06eec3-2497-4cd2-a734-1cf2563fc9a4.png"
         },
         {
-            "location_id": "1135662",
+            "id": "12",
             "name": "Yalakhom| Find Tranquility Under Mountains |Room2",
             "type": "Private room in Sosan",
             "guests": 2,
@@ -181,7 +181,7 @@
             "image": "https://i.ibb.co/9NpnSYm/3f5d0c16-4ad0-43e4-9c7b-49dda8b31152.png"
         },
         {
-            "location_id": "307095",
+            "id": "13",
             "name": "Aari 9",
             "type": "Private room in Naggar",
             "guests": 2,
@@ -196,7 +196,7 @@
             "image": "https://i.ibb.co/vPPjBYZ/12dd62dd-3f12-4f43-837c-de21d90cc6fd.png"
         },
         {
-            "location_id": "1135576",
+            "id": "14",
             "name": "Massifsoul home stay ~ Room 1",
             "type": "Private room in Gadhemi",
             "guests": 2,
@@ -211,7 +211,7 @@
             "image": "https://i.ibb.co/DMfDW8j/119fbdca-e31f-4e18-85b8-b6a71358acf1.png"
         },
         {
-            "location_id": "608386",
+            "id": "15",
             "name": "Mesmerizing View Room Amdist Apple Orchard",
             "type": "Private room in Manali",
             "guests": 3,
@@ -226,7 +226,7 @@
             "image": "https://i.ibb.co/VQXgbHR/0662a5cd-04cf-43d3-b702-d2b77906bedb.png"
         },
         {
-            "location_id": "602617",
+            "id": "16",
             "name": "Colonel's Dacha-Executive Room",
             "type": "Private room in Kasol",
             "guests": 3,
@@ -241,7 +241,7 @@
             "image": "https://i.ibb.co/Vqk3gbW/be7d4847-950d-4629-9061-f52bdd79d9b2.png"
         },
         {
-            "location_id": "503249",
+            "id": "17",
             "name": "Blisswinds Homestay",
             "type": "Private room in Jari",
             "guests": 3,
@@ -256,7 +256,7 @@
             "image": "https://i.ibb.co/9NpnSYm/3f5d0c16-4ad0-43e4-9c7b-49dda8b31152.png"
         },
         {
-            "location_id": "8792213",
+            "id": "18",
             "name": "Shantiloka - A peacefull Apartment in The Forest",
             "type": "Entire rental unit in Naggar",
             "guests": 3,
@@ -271,7 +271,7 @@
             "image": "https://i.ibb.co/DMfDW8j/119fbdca-e31f-4e18-85b8-b6a71358acf1.png"
         },
         {
-            "location_id": "4715201",
+            "id": "19",
             "name": "The Himalayan Pine",
             "type": "Hotel room in Kasol",
             "guests": 3,
@@ -286,7 +286,7 @@
             "image": "https://i.ibb.co/kyH3L9C/b1eec38d-d82c-441c-91c8-0c0afb886e26.png"
         },
         {
-            "location_id": "4508811",
+            "id": "20",
             "name": "Beas View : The Orchard",
             "type": "Entire apartment in Kullu",
             "guests": 4,
@@ -301,7 +301,7 @@
             "image": "https://i.ibb.co/DYdLxkb/02f6c0b0-604f-45b7-9630-dc913319ae5b.png"
         },
         {
-            "location_id": "2048749",
+            "id": "21",
             "name": "Yalakhom| Find Tranquility Under Mountains |Room2",
             "type": "Private room in Sosan",
             "guests": 2,

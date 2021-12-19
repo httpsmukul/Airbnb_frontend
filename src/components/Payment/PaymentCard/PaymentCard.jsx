@@ -56,8 +56,8 @@ export const PaymentCard = () => {
 							<br />
 							<input
 								className={styles.input}
-								type="number"
-								placeholder="Enter Card Number"
+								type="text"
+								placeholder="Enter Name on Card"
 							/>
 						</div>
 						<div className={styles.check}>
@@ -66,9 +66,11 @@ export const PaymentCard = () => {
 								Save this option securly for faster payment
 							</label>
 						</div>
-						<Button className={styles.payButton} variant="contained">
-							Proceed
-						</Button>
+						<Link to="/final">
+							<Button className={styles.payButton} variant="contained">
+								Proceed
+							</Button>
+						</Link>
 					</div>
 				</div>
 				<div className={styles.rightDiv}>

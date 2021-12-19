@@ -323,8 +323,8 @@
 }
 .fix12 {
 	background-color: black;
-	height: 700px;
-	padding: 100px 0 0 0;
+	height: 500px;
+	padding: 50px 0 0 0;
 }
 .fix12 img {
 	margin: 0 0 0 180px;
@@ -332,4 +332,13 @@
 .fix13 {
 	margin: -200px 0 0 600px;
 	color: white;
+}
+.fix23 {
+	border: 2px solid black;
+	height: 100px;
+	width: 700px;
+}
+.fixtext {
+	text-align: center;
+	margin: auto;
 }

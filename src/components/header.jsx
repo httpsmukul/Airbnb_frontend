@@ -75,11 +75,11 @@ export const Header = () => {
 	};
 	const signup = () => {
 		console.log("signup");
-		setshowsignup(!showsignup);
+		// setshowsignup(!showsignup);
 	};
 	const login = () => {
 		console.log("login");
-		setshowsignin(!showsignin);
+		// setshowsignin(!showsignin);
 	};
 	return (
 		<>
@@ -276,9 +276,13 @@ export const Header = () => {
 			{/* //here start login popup______________________________ */}
 			{singshow && (
 				<div className="signdetail">
-					<div onClick={signup}>Sign up</div>
+					<Link style={{ textDecoration: "none" }} to="Signup">
+						<div onClick={signup}>Sign up</div>
+					</Link>
 					<hr />
-					<div onClick={login}>Log in</div>
+					<Link style={{ textDecoration: "none" }} to="Signin">
+						<div onClick={login}>Log in</div>
+					</Link>
 					<hr />
 
 					<div>Host your home</div>
