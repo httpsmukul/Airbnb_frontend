@@ -1,5 +1,5 @@
 import styles from './PaymentCard.module.css'
-// import logo from '../../../images/airbnblogo.svg'
+import logo from '../../../images/airbnblogo.svg'
 import back from '../../../images/backButton.svg'
 import hotelImage from '../../../images/hotel_image.png'
 import Button from '@mui/material/Button';
@@ -11,7 +11,7 @@ export const PaymentCard = () => {
         <>
             <div className={styles.nav}>
                 {/* <h1>Welcome to Payment Page</h1> */}
-                {/* <img className={styles.logo} src={logo} alt="AirBNB" /> */}
+                <Link to='/'>      <img className={styles.logo} src={logo} alt="AirBNB" /></Link>
             </div>
             <div className={styles.confirm}>
                 <div className={styles.pay}>
