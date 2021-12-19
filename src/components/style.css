@@ -1,0 +1,355 @@
+.sec-img{
+    width: 20px;
+    height:20px;
+}
+.footer-first{
+    margin-left: 100px;
+}
+.footer-2{
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #F7F7F7;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-gap: 2%;
+}
+
+.footer-1{
+    margin-left: 100px;
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 3%;
+}
+.secure{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 500px;
+    display: grid;
+    grid-template-columns:20% 50% ;
+    grid-gap: 0%;
+}
+.state-line{
+    margin-left:100px;
+    
+}
+.logo-host{
+    margin-left: 100px;
+    width: 500px;
+   display: grid;
+   grid-template-columns: 10% 60%;
+   grid-gap:20%;
+}
+.host-detail{
+    margin-left: 100px;
+}
+.host-detail-1{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+}
+.host-detail-2{
+ color:#607d8b
+}
+.detail-1{
+    margin-left: 100px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #222222;
+}
+.detail-k{
+    margin-left: 100px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #000000;
+
+}
+.contact-host{
+    margin-left: 100px;
+    width:150px;
+    height:50px;
+    border-radius: 10px;
+}
+.extra-details{
+    margin-top:30px;
+    width: 200px;
+    height:30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.facility-box{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+}
+.facility{
+    margin-left: 50px;
+}
+.logoimage{
+    height:15px;
+    width: 15px;
+    margin-right:5px ;
+
+}
+.move-right{
+    margin-left: 50px;
+}
+.wifi-style{
+    display: flex;
+    padding-left: 50px;
+}
+.hotel-offers{
+    margin-left: 100px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #222222;
+
+}
+.enhanced-clean{
+    text-align: left;
+    margin-left: 10px;
+
+    /* Body/Semi bold #222222 */
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Primary/Air black */
+
+    color: #222222;
+
+}
+.text-detail{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Secondary/Medium grey */
+
+    color: #767676;
+
+}
+.text-detail-2{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #2222226e;
+    
+}
+
+.star-box{
+   display: flex;
+   flex-direction: row;
+   justify-content: 0px;
+   margin-left: 100px;
+   margin-bottom: 25px;
+}
+.star-tag{
+    margin-top: 3px;
+    width: 22.5px;
+    height: 22.5px;
+
+}
+.host-img{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
+.Host {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    text-align: left;
+}
+.main-container{
+    margin-left: 50px;
+    margin-top:40px ;
+}
+
+.host-name {
+  width: 306px;
+  height: 26px;
+  left: 4px;
+  top: 12px;
+
+  /* Body/Semi bold #222222 */
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #222222;
+}
+
+.host-res {
+   width: 297px;
+   height: 19px;
+   left: 4px;
+   bottom: 14px;
+
+   /* Subheading/light */
+
+   font-family: SF UI Display;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 19px;
+   /* identical to box height */
+
+
+   color: #000000;
+}
+.smallbox{
+    display: flex;
+    justify-content: 50px; 
+}
+
+.hotelNameBox{
+   display:grid;
+   grid-template-columns: 30% 20% 20%;
+   grid-gap: 600px;
+}
+.hotelName{
+    width: 233px;
+    height: 31px;
+    margin-left: 50px;
+  
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    /* Primary/Air black */
+
+    color: #222222;
+}
+.location{
+    width: 182px;
+    height: 17px;
+    left: 0px;
+    margin-left:50px;
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+
+    /* Secondary/Medium grey */
+
+    color: #767676;
+
+}
+.vector-img{
+   width: 20px;
+   height: 20px;
+}
+.save-vector{
+    width: 30px;
+    height: 17px;
+    left: 28px;
+
+    /* Button/ light underline #222222 */
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+
+    color: #000000;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 12px;
+}
+.des-img-box{
+   display: grid;
+   grid-template-columns:48% 48%;
+
+}
+.img-left-box{
+width: 90%;
+height:280px;
+margin-left:50px;
+margin-top: 5px;
+
+}
+.right-box{
+   display: grid;
+   grid-template-columns: 48% 48%;
+   height: 50% ;
+   width: 85%;
+   margin-top:5px;
+}
+
+img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+.img-small{
+width: 250px;
+height: 135px;
+}
+.img-left{
+    border-radius: 16px 0px 0px 16px;
+}
+.img-end-up{
+border-radius: 0px 16px 0px 0px;
+}
+.img-end-down{
+    border-radius: 0px 0px 16px 0px;
+}
