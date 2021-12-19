@@ -15,6 +15,7 @@ export const Payment = () => {
 			<div className={styles.nav}>
 				{/* <h1>Welcome to Payment Page</h1> */}
 				<Link to="/">
+					{" "}
 					<img className={styles.logo} src={logo} alt="AirBNB" />
 				</Link>
 			</div>
