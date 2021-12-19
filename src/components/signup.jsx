@@ -11,11 +11,10 @@ export const Signup = () => {
 	const [Email, setemail] = useState("");
 	const [pass, setpass] = useState(null);
 	const [mob, setmob] = useState(null);
-	const [show, setshow] = useState(false);
+	const [show, setshow] = useState(true);
 
 	const signup = () => {
 		// console.log("sign up working");
-		setshow(!show);
 
 		axios
 			.post("http://localhost:3001/signup", {
@@ -33,95 +32,104 @@ export const Signup = () => {
 				console.log(error);
 			});
 	};
+	const handelx = () => {
+		setshow(!show);
+	};
 
 	return (
 		<>
-			<div className="start">
-				<div className="crose">
-					<div className="x">x</div>
+			{show && (
+				<div>
+					<div className="start">
+						<div className="crose">
+							<div className="x" onClick={handelx}>
+								x
+							</div>
 
-					<div className="log">Log in or Sign up</div>
-				</div>
-				<hr />
-				<div className="welcome">
-					{/* <div className="welcome_text">Welcome to Airbnb</div> */}
-					<h3 className="welcome_text">Welcome to Airbnb</h3>
-					<div>
-						<input
-							placeholder="First name"
-							type="string"
-							className="first_name"
-							onChange={(e) => setfirst(e.target.value)}
-						></input>
-						<br />
-						<br />
-						<input
-							placeholder="last name"
-							type="string"
-							className="first_name"
-							onChange={(e) => setlast(e.target.value)}
-						></input>
-						<br />
-						<br />
-						<input
-							placeholder="Mobile"
-							type="number"
-							className="first_name"
-							onChange={(e) => setmob(e.target.value)}
-						></input>
-						<br />
-						<br />
-						<input
-							placeholder="Email"
-							type="email"
-							className="first_name"
-							onChange={(e) => setemail(e.target.value)}
-						></input>
-						<br />
-						<br />
-
-						<input
-							placeholder="Password"
-							type="password"
-							className="first_name"
-							onChange={(e) => setpass(e.target.value)}
-						></input>
-						<br />
-						<br />
-						<input
-							onClick={signup}
-							type="submit"
-							// placeholder="hey"
-							className="first_name_sub"
-						></input>
-						<br />
-						<br />
+							<div className="log">Log in or Sign up</div>
+						</div>
 						<hr />
-						<div className="fb">
+						<div className="welcome">
+							{/* <div className="welcome_text">Welcome to Airbnb</div> */}
+							<h3 className="welcome_text">Welcome to Airbnb</h3>
 							<div>
-								<img src={fb}></img>
-							</div>
-							<div className="fb_text">Continue with Facebook</div>
-						</div>
-						<br />
-						<div className="fb">
-							<div>
-								<img src={google}></img>
-							</div>
-							<div className="fb_text">Continue with Facebook</div>
-						</div>
-						<br />
-						<div className="fb">
-							<div>
-								<img src={email}></img>
-							</div>
-							<div className="fb_text">Continue with Facebook</div>
-						</div>
+								<input
+									placeholder="First name"
+									type="string"
+									className="first_name"
+									onChange={(e) => setfirst(e.target.value)}
+								></input>
+								<br />
+								<br />
+								<input
+									placeholder="last name"
+									type="string"
+									className="first_name"
+									onChange={(e) => setlast(e.target.value)}
+								></input>
+								<br />
+								<br />
+								<input
+									placeholder="Mobile"
+									type="number"
+									className="first_name"
+									onChange={(e) => setmob(e.target.value)}
+								></input>
+								<br />
+								<br />
+								<input
+									placeholder="Email"
+									type="email"
+									className="first_name"
+									onChange={(e) => setemail(e.target.value)}
+								></input>
+								<br />
+								<br />
 
-						<br />
+								<input
+									placeholder="Password"
+									type="password"
+									className="first_name"
+									onChange={(e) => setpass(e.target.value)}
+								></input>
+								<br />
+								<br />
+								<input
+									onClick={signup}
+									type="submit"
+									// placeholder="hey"
+									className="first_name_sub"
+								></input>
+								<br />
+								<br />
+								<hr />
+								<div className="fb">
+									<div>
+										<img src={fb}></img>
+									</div>
+									<div className="fb_text">Continue with Facebook</div>
+								</div>
+								<br />
+								<div className="fb">
+									<div>
+										<img src={google}></img>
+									</div>
+									<div className="fb_text">Continue with Facebook</div>
+								</div>
+								<br />
+								<div className="fb">
+									<div>
+										<img src={email}></img>
+									</div>
+									<div className="fb_text">Continue with Facebook</div>
+								</div>
+
+								<br />
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
+			)}
 		</>
 	);
 };
